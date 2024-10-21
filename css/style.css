@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1b1c1e;
+    color: #f2eeed;
+    background-image: url("img/nano.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: 'Orbitron', sans-serif; 
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo img {
+    width: 100px; /* Ajustar según necesidad */
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #c8472c;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+nav a:hover {
+    color: #58acf4;
+    background-color: #dddddd;
+}
+
+.caja {
+    background-color: #0b3075;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #960018;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #ca2c43;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.center {
+    display: block;
+    margin: 20px auto; /* Centrado */
+    width: 70%; /* Ajustar según necesidad */
+    max-width: 400px; /* Tamaño máximo */
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(74, 74, 139);
+    padding: 10px;
+    margin-top: 20px;
+}
